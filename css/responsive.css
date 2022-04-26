@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+  .site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+  }
+
+  .site-main .about-area .about-title h2 > span {
+    /* font-size: 31px; */
+    letter-spacing: 12px;
+    font: normal bold 49px/60px var(--roboto);
+  }
+
+} 
+
+@media screen and (min-width: 1024px) {
+  .site-main .about-area .about-title h2 > span {
+    letter-spacing: 15px;
+    font: normal bold 49px/60px var(--roboto);
+  }
+
+  .site-main .about-area .img-fluid {
+    height: auto;
+    max-width: initial;
+  }
+}
+
+
+/* @media screen and (max-width: 340px) {
+  .header-area .main-menu .navbar,
+  .header-area .main-menu .navbar .navbar-nav {
+    padding: 2%; 
+    margin: 0%;
+  } 
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 2.4rem;
+  }
+
+  /* .about-area img {
+    width: 200px;
+    height: 200px;
+  } 
+
+  .site-main .about-area .about-title h2 > span {
+    font-size: 0.3rem;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 792px) {
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
+
+  .site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px var(--roboto);
+  letter-spacing: 15px;
+}
+} */

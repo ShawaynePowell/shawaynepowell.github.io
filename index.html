@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    
+
+
+
+
+    <!-- Bootstrap css file-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- custom css file-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+
+
+
+
+    <!--===================== Start header Area  ======================-->
+    <header class="header-area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#"><img src="./img/logo.png"></a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="mx-auto">
+                        <div class="navbar-nav active">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link" href="#about">About Me</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--===================== End header Area  ======================-->
+    
+    <!--===================== Start Main Area  ======================-->
+    <main class="site-main">
+
+
+        <!--===================== Start Banner Area  ======================-->
+        <section class="site-banner" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text"></h3>
+                        <h1 class="title-text text-uppercase">I am Shawayne</h1>
+                        <h4 class="title-text text-uppercase">Junior Front-End Developer</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.location.href='#about'">About Me</button>
+                                <button type="button" class="btn button secondary-button text-uppercase" onclick="window.location.href='#portfolio'">Portfolio</button>
+                            </div>
+                        </div><!-- </ button div> -->
+                    </div><!-- </site title div> -->
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/web-dev.png" alt="banner-img" class="img-fluid">
+                    </div><!--</banner image>-->
+                </div><!-- </row div> -->
+            </div><!-- </container div > -->
+        </section><!-- </site banner section> -->
+        <!--===================== End Banner Area  ======================-->
+
+
+        <!--===================== About Area  ======================-->
+        <section class="about-area" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex">
+                        <img src="./img/about-me.jpeg" class="img-fluid col-md" alt="About Shawayne">
+                    </div>
+                    <div class="col-lg-6 about-title text-center">
+                        <h2 class="text-uppercase pt-5">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph py-4">
+                            <p class="para">
+                                There are many variations of passages of Lorem Ipsum available, but the majority 
+                                have suffered alteration in some form, by injected humour, or randomised words 
+                                which don't look even slightly believable.
+                            </p>
+                            <p class="para">
+                                It is a long established fact that a reader will be distracted by the readable 
+                                content of a page when looking at its layout. The point of using Lorem Ipsum 
+                                is that it has a more-or-less normal distribution of letters, as opposed to 
+                                using 'Content here, content here', making it look like readable English.
+                            </p>
+                        </div><!--</paragrapgh>-->
+                        <a href="./documents/discover.pdf" download="discover.pdf">
+                            <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
+                        </a>
+                    </div><!--</about me>-->
+                </div><!--</row>-->
+            </div><!--</container div>-->
+        </section><!--</section>-->
+        <!--===================== End About Area  ======================-->
+        
+        <!--===================== Start Portfolio  ======================-->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="text-uppercase text-center portfolio-title">
+                    <h3 class="title-text">Portfolio</h3>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio-container portfolio-card text-center">
+                                <img src="./img/portfolio/photo-gallery.png" alt="photo-gallery" class="portfolio-pic img-thumbnail">
+                                <h3 class="text-title text-uppercase">Photo Gallery</h3>
+                                <p>
+                                    A gallery with images placed in a responsive grid with features like filtering based on name or 
+                                    caption and a lightbox display on click.
+                                </p>
+                                <a href="https://github.com/Coding-With-Shawayne/Interactive-Photo-Gallery.git" type="button" class="btn button primary-button text-uppercase" target="_blank">View Code</a>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Website</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio-container portfolio-card text-center">
+                                <img src="./img/portfolio/form.png" alt="registration-form" class="portfolio-pic img-thumbnail">
+                                <h3 class="text-title text-uppercase">Registration Form</h3>
+                                <p>
+                                    A sign-up responsive, mobile-first registration form for a newsletter using variety of HTML
+                                    elements
+                                    "The Code Review". 
+                                </p>
+                                <a href="https://github.com/Coding-With-Shawayne/Online_Registration_Form.git" type="button" class="btn button primary-button text-uppercase" target="_blank">View Code</a>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Website</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio-container portfolio-card text-center">
+                                <img src="./img/portfolio/wheel-of-success.png" alt="wheel-of-success" class="portfolio-pic img-thumbnail">
+                                <h3 class="text-title text-uppercase">Wheel of Success</h3>
+                                <p>
+                                    A word guessing game where players will click letters from an onscreen keyboard to try to guess a random phrase.
+                                </p>
+                                <a href="https://github.com/Coding-With-Shawayne/Game-Show-App.git" type="button" class="btn button primary-button text-uppercase" target="_blank">View Code</a>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Website</a>
+                            </div>
+                            </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio-container portfolio-card text-center">
+                                <img src="./img/portfolio/web-style-guide.png" alt="wheel-of-success" class="portfolio-pic img-thumbnail">
+                                <h3 class="text-title text-uppercase">Web Style Guide</h3>
+                                <p>
+                                    Interactive dashboard web application using advanced web techniques including 
+                                    SVG graphics, Javascript using SASS. 
+                                </p>
+                                <a href="https://github.com/Coding-With-Shawayne/Web-Style-Guide.git" type="button" class="btn button primary-button text-uppercase" target="_blank">View Code</a>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Website</a>
+                            </div>
+                            </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio-container portfolio-card text-center">
+                                <img src="./img/portfolio/wheel-of-success.png" alt="wheel-of-success" class="portfolio-pic img-thumbnail">
+                                <h3 class="text-title text-uppercase">Web App Dashboard</h3>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                                    Alias! 
+                                </p>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Code</a>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Website</a>
+                            </div>
+                            </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="portfolio-container portfolio-card text-center">
+                                <img src="./img/portfolio/wheel-of-success.png" alt="wheel-of-success" class="portfolio-pic img-thumbnail">
+                                <h3 class="text-title text-uppercase">Employee</h3>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                                    Alias! 
+                                </p>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Code</a>
+                                <a href="#" type="button" class="btn button primary-button text-uppercase">View Website</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--===================== End  Portfolio ======================-->
+
+        <!--===================== Start Social Media ======================-->
+        <div class="socials">
+            <a href="https://www.instagram.com/djshawayne/" target="_blank"><img src="./img/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socialcon"></a>
+            <a href="https://www.linkedin.com/in/shawaynepowell/" target="_blank"><img src="./img/icons/icons8-linkedin-circled.gif" alt="LinkedIn" loading="lazy" class="socialcon"></a>
+            <a href="https://twitter.com/djshawayne876" target="_blank"><img src="./img/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socialcon"></a>
+        </div>
+        <!--===================== End Social Media ======================-->
+        
+        
+        <!--===================== Start Contact Me Area ======================-->
+        <section class="contact" id="contact">
+            <div class="text-uppercase text-center contact-title">
+                <h3 class="text-title text-uppercase">Contact Me</h3>
+            </div>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                <form action="" method="POST">
+
+                    <!-- Name input -->
+                    <!-- <div class="form-control"> -->
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" id="name" class="input-field" placeholder="Enter Your Name" data-sb-validations="required"/>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                    <!-- </div> -->
+
+                    <!-- Email address imput -->
+                    
+                        <label class="form-label" for="emailAddress">Email Address:</label>
+                        <input class="input-field" id="emailAddress" type="email" placeholder="Enter Your Email Address" data-sb-validations="required, email" />
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                     
+
+                      <!-- Message input -->
+                      
+                        <label class="form-label" for="message">Message:</label>
+                        <textarea class="input-field" id="message" type="text" placeholder="Enter Your Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                     
+
+                      <!-- Form submissions success message -->
+                      <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center mb-3">Form submission successful!</div>
+                      </div>
+
+                      <!-- Form submissions error message -->
+                      <div class="d-none" id="submitErrorMessage">
+                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                      </div>
+
+                      <!-- Form submit button -->
+                      
+                        <button class="submit-btn" type="submit">Submit</button>
+                    
+                 </form>
+                </div>
+             </div>
+         </section>
+         
+         <!--===================== End Contact Me Area ======================-->
+
+
+        <!--===================== Start Footer ======================-->
+        <section>
+            <footer>
+                <p class="copy footer-text">&copy; 2022, Shawayne Powell</p>
+                <!-- <p class="copy footer-text">Built by: <a href="#" target="_blank">Shawayne Powell</a></p> -->
+            </footer>
+        </section>
+        <!--===================== End Footer ======================-->
+
+
+        <!--===================== Start Scroll To Top ======================-->
+        <i class="scroll-up" id="scroll-up">
+            <img src="./img/icons/icons8-scroll-up.gif" alt="scroll-up" class="up-arrow">
+        </i>
+        <!--===================== End Scroll To Top ======================-->
+
+
+    </main>
+    <!--===================== End Main Area  ======================-->
+
+
+
+
+    
+    <!-- Jquery js file-->
+    <script src="./js/jquery.3.6.0.js"></script>
+
+    <!-- Bootstrap js file-->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- App js file -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
